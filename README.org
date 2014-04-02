@@ -1,0 +1,21 @@
+#+Title: Predicate: A library for testing things
+
+* Overview / History
+
+Predicate was an important library for the Combosaurus recommendation
+engine. It allowed us to further filter out search results that didn't
+quite fit the criteria. 
+
+One could build a query in the MsgPack RPC call for "get_recommendations"
+and ensure that filtering was done correctly. 
+
+This was written in 2012.
+
+* Installation
+
+I have no idea if this compiles on anything after Go 1.0, which is what it
+ran on.
+
+* Usage
+
+See the tests
